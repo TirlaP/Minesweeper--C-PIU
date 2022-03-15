@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Windows.Forms;
 
 namespace Minesweeper.Boards
 {
     public class Board
     {
-        public Minesweeper Minesweeper { get; set; }
-        public PrintBoard Print { get; set; }
         public int Width { get; set; }
         public int Height { get; set; }
         public int NumMines { get; set; }
